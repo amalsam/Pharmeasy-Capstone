@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+  <test thread-count="10" name="Test">
+    <classes>
+      <class name="com.ust.pharmeasy.tests.DiscountTest"/>
+      <class name="com.ust.pharmeasy.tests.FilterTest"/>
+      <class name="com.ust.pharmeasy.tests.CartTest"/>
+      <class name="com.ust.pharmeasy.tests.PlusTest"/>
+      <class name="com.ust.pharmeasy.tests.RatingProductTest"/>
+      <class name="com.ust.pharmeasy.tests.PharmecyStoreTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

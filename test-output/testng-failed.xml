@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.ust.pharmeasy.tests.VerifyFAQPage">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="verifyMedicineAndHealthCareFAQ"/>
+          <include name="verifyPaymentFAQ"/>
+        </methods>
+      </class> <!-- com.ust.pharmeasy.tests.VerifyFAQPage -->
+      <class name="com.ust.pharmeasy.tests.VerifyProductSort">
+        <methods>
+          <include name="afterClass"/>
+          <include name="verifyPriceHighToLowSort"/>
+          <include name="verifyDiscountSort"/>
+          <include name="verifyPriceLowToHighSort"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.ust.pharmeasy.tests.VerifyProductSort -->
+      <class name="com.ust.pharmeasy.tests.VerifyOffersCatagory">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="verifyMedicineOffer"/>
+          <include name="verifyPaymentOffer"/>
+        </methods>
+      </class> <!-- com.ust.pharmeasy.tests.VerifyOffersCatagory -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

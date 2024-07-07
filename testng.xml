@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.ust.pharmeasy.tests.Tests"/>
+      <class name="com.ust.pharmeasy.tests.VerifyProductSort"/>
+       <class name="com.ust.pharmeasy.tests.VerifyFAQPage"/>
+       <class name="com.ust.pharmeasy.tests.VerifyPrescriptionRequiredProducts"/>
+       <class name="com.ust.pharmeasy.tests.VerifyOffersCatagory"/>
+       
+       <class name="com.ust.pharmeasy.tests.DiscountTest"/>
+      <class name="com.ust.pharmeasy.tests.FilterTest"/>
+      <class name="com.ust.pharmeasy.tests.CartTest"/>
+      <class name="com.ust.pharmeasy.tests.PlusTest"/>
+      <class name="com.ust.pharmeasy.tests.RatingProductTest"/>
+      <class name="com.ust.pharmeasy.tests.PharmecyStoreTest"/>
+      <class name="com.ust.pharmeasy.runner.Runner"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
